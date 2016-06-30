@@ -1,0 +1,6 @@
+.jshintrc
+.sublime-gulp.cache
+gulpfile.js
+MIT.LICENSE
+newproject
+package.json
