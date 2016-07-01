@@ -126,7 +126,7 @@ cd ../
 echo
 echo "Running NPM init..."
 npm init
-npm install --save-dev gulp jshint jshint-stylish gulp-watch gulp-jshint watchify browserify vinyl-source-stream vinyl-buffer gulp-util gulp-sourcemaps lodash.assign
+npm install --save-dev gulp jshint jshint-stylish gulp-watch gulp-jshint watchify browserify vinyl-source-stream vinyl-buffer gulp-util gulp-sourcemaps lodash.assign jquery 
 
 echo
 echo "Running git init..."
