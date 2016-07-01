@@ -73,6 +73,5 @@ gulp.task('watch', function() {
   gutil.log(gutil.colors.bgGreen('Watching for changes...'));
 });
 
-// This task runs when you type [10:36:12] Local gulp not found in ~\workspace\exercises\mjd\orchard
-[10:36:12] Try running: npm install gulp in the CLI
+
 gulp.task('default', ['lint', 'watch'], bundle);
