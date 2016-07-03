@@ -46,9 +46,9 @@ let counter = 0;
 let pearCheck =  PearTree.height + 10;
 let oakCheck =  OakTree.height + 10;
 function growTrees() {
-	$("#output").append(`<div>Pear tree is now ${PearTree.height}cm tall, and has ${PearTree.branches} branches</div>`);
-	$("#output").append(`<div>Oak tree is now ${OakTree.height}cm tall, and has ${OakTree.branches} branches</div>`);
-	$("#output").append(`<div>    </div>`);
+	$("#output").append(`<div id="div--${counter}" class="div"></div>`);
+	$(`#div--${counter}`).append(`<div>Pear tree is now ${PearTree.height}cm tall, and has ${PearTree.branches} branches</div>`);
+	$(`#div--${counter}`).append(`<div>Oak tree is now ${OakTree.height}cm tall, and has ${OakTree.branches} branches</div>`);
 	// Every second, increase the height the pear tree by some integer value and increase the height the oak tree by some integer value that is larger than what you used for the pear tree.
 	PearTree.increaseHeight(3);
 	OakTree.increaseHeight(5);
