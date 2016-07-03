@@ -2,7 +2,7 @@
   "predef": [ "document", "jQuery", "$", "console", "window" ],
   "esversion": 6,
   "globalstrict": true,
-  "browserify": true,
+  "browserify": true
   "globals": {
    "describe": false,
    "it": false,
